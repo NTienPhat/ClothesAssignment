@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Repository.Models.Product>
+
+<div class="row pt-4">
+    <div class="col-6">
+        <h2 class="text-primary">Product List</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-controller="Product" asp-action="Create" class="btn btn-primary">
+            Create New Product
+        </a>
+    </div>
+</div>
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Name</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>
+                        <a class="btn btn-primary" href="/Product/Edit?id=@item.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/Product/Delete?id=@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}

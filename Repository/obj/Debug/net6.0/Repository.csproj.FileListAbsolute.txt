@@ -1,0 +1,14 @@
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\bin\Debug\net6.0\Repository.deps.json
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\bin\Debug\net6.0\Repository.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\bin\Debug\net6.0\Repository.pdb
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\refint\Repository.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.pdb
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\ref\Repository.dll
