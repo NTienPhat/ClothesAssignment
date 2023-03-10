@@ -1,3 +1,5 @@
+using AutoMapper;
+using ClothesWeb.AutoMapper;
 using Repository.Models;
 using Repository.Repository;
 using Repository.Services;
@@ -9,6 +11,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<clothesStoreContext>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

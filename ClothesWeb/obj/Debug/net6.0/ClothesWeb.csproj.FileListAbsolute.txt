@@ -63,3 +63,9 @@ E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\obj\Debug\n
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\obj\Debug\net6.0\ClothesWeb.pdb
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\obj\Debug\net6.0\ClothesWeb.genruntimeconfig.cache
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\obj\Debug\net6.0\ref\ClothesWeb.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\bin\Debug\net6.0\JetBrains.Annotations.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\bin\Debug\net6.0\X.PagedList.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\obj\Debug\net6.0\ClothesWeb.MvcApplicationPartsAssemblyInfo.cs
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\bin\Debug\net6.0\AutoMapper.dll
+E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\ClothesWeb\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

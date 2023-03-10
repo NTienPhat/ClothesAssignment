@@ -1,4 +1,8 @@
-﻿@model IEnumerable<Repository.Models.Product>
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@*@model IEnumerable<Repository.Models.Product>*@
+@model IPagedList<Repository.Models.Product>
 
 <div class="row pt-4">
     <div class="col-6">
@@ -16,6 +20,7 @@
         <thead>
             <tr>
                 <td>Name</td>
+
             </tr>
         </thead>
         <tbody>
@@ -33,5 +38,18 @@
             }
         </tbody>
     </table>
-
+    <div class="mb-5">
+    @Html.PagedListPager(Model, page => Url.Action("index", new { page = page }), new PagedListRenderOptions()
+    {
+    ActiveLiElementClass = "active",
+    PageClasses = new[]{ "page-link"},
+    LiElementClasses=new[] { "page-item" },
+    UlElementClasses = new[] { "pagination","justify-content-center", "mt-3" },
+    LinkToNextPageFormat = "Next",
+    LinkToPreviousPageFormat = "Previous",
+    MaximumPageNumbersToDisplay = 5,
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always
+    })
+</div>
 }

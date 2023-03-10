@@ -1,23 +1,33 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Repository.DTO;
 using Repository.Models;
 using Repository.Repository;
 using Repository.Services;
+using X.PagedList;
 
 namespace ClothesWeb.Controllers
 {
     public class CategoryController : Controller
     {
         private readonly ICategoryService _cateService;
+        private readonly IMapper _mapper;
 
-        public CategoryController(ICategoryService cateService)
+        public CategoryController(ICategoryService cateService, IMapper mapper)
         {
             _cateService = cateService;
+            _mapper = mapper;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? page = 1)
         {
-            IEnumerable<Category> cate = _cateService.GetAll();
-            return View(cate);
+            if (page != null && page < 1)
+            {
+                page = 1;
+            }
+            var pageSize = 10;
+            var list = _cateService.GetAll().ToPagedList(page ?? 1, pageSize);
+            return View(list);
         }
 
         public IActionResult Create()
@@ -26,21 +36,24 @@ namespace ClothesWeb.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Category category)
+        public IActionResult Create(CategoryDTO category)
         {
-            _cateService.Create(category);
+            var cate = _mapper.Map<Category>(category);
+            _cateService.Create(cate);
             return RedirectToAction("Index");
         }
 
         public IActionResult Edit(string id)
         {
             var cate = _cateService.GetAll().Where(d => d.Id.ToString() == id).FirstOrDefault();
-            return View(cate);
+            var obj = _mapper.Map<CategoryDTO>(cate);
+            return View(obj);
         }
 
         [HttpPost]
-        public IActionResult Edit(Category cate)
+        public IActionResult Edit(CategoryDTO category)
         {
+            var cate = _mapper.Map<Category>(category);
             _cateService.Update(cate);
             return RedirectToAction("Index");
         }

@@ -10,7 +10,7 @@ namespace Repository.Services
 {
     public interface IProductService
     {
-        public List<Product> GetAll();
+        public IQueryable<Product> GetAll();
         public void Create(Product product);
         public void Update(Product product);
         public bool Delete(Product product);
@@ -34,9 +34,9 @@ namespace Repository.Services
             return true;
         }
 
-        public List<Product> GetAll()
+        public IQueryable<Product> GetAll()
         {
-            return _repository.GetAll().ToList();
+            return _repository.GetAll();
         }
 
         public void Update(Product product)
