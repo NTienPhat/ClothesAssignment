@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\ClothesWeb.csproj": {}
   },
   "projects": {
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj": {
+    "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\ClothesWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\ClothesWeb.csproj",
         "projectName": "ClothesWeb",
-        "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\ClothesWeb.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual components,tolls,SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj": {
-                "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj"
+              "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\Repository\\Repository.csproj"
               }
             }
           }
@@ -80,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj": {
+    "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual components,tolls,SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,6 +107,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -165,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
