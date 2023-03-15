@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Administrator\Documents\PRN221\Grp_Project\ClothesWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Administrator/Documents/PRN221/Grp_Project/ClothesWeb/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/PRN221/Grp_Project/ClothesWeb/Views/Admin/ManagementOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlbWVudE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/PRN221/Grp_Project/ClothesWeb/Views/Admin/ManagementUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlbWVudFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrator/Documents/PRN221/Grp_Project/ClothesWeb/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

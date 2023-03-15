@@ -11,6 +11,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<clothesStoreContext>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IOrderService, ManagementOrderService>();
+builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+
 
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
