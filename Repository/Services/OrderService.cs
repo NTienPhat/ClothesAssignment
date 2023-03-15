@@ -16,11 +16,11 @@ namespace Repository.Services
         public bool Delete(Order order);
     }
 
-    public class OrderService : IOrderService
+    public class ManagementOrderService : IOrderService
     {
         private readonly RepositoryBase<Order> _repository;
 
-        public OrderService()
+        public ManagementOrderService()
         {
             _repository = new RepositoryBase<Order>();
         }
@@ -35,14 +35,12 @@ namespace Repository.Services
             _repository.Delete(order);
             return true;
         }
-
-        public List<Order> GetAll() { 
-            return _repository.GetAll().ToList();
-        }
-
         public void Update(Order order)
         {
             _repository.Update(order);
+        }
+        public List<Order> GetAll() { 
+            return _repository.GetAll().ToList();
         }
     }
 }
