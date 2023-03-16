@@ -14,13 +14,14 @@ namespace Repository.Services
         public void Create(Order order);
         public void Update(Order order);
         public bool Delete(Order order);
+        public List<Order> SearchByKeyword(string keyword);
     }
 
-    public class ManagementOrderService : IOrderService
+    public class OrderService : IOrderService
     {
         private readonly RepositoryBase<Order> _repository;
 
-        public ManagementOrderService()
+        public OrderService()
         {
             _repository = new RepositoryBase<Order>();
         }
@@ -39,8 +40,25 @@ namespace Repository.Services
         {
             _repository.Update(order);
         }
-        public List<Order> GetAll() { 
+        public List<Order> GetAll()
+        {
             return _repository.GetAll().ToList();
+        }
+        public List<Order> SearchByKeyword(string keyword)
+        {
+            try
+            {
+                var x = _repository.GetAll().ToList().Where(x => x.OrderNumber.Contains(keyword));
+                if (x != null)
+                {
+                    return (List<Order>)x;
+                }
+                return null;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

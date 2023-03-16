@@ -11,6 +11,8 @@ namespace Repository.Services
     public interface IProductService
     {
         public IQueryable<Product> GetAll();
+        public Product GetOne(Guid id);
+
         public void Create(Product product);
         public void Update(Product product);
         public bool Delete(Product product);
@@ -37,6 +39,11 @@ namespace Repository.Services
         public IQueryable<Product> GetAll()
         {
             return _repository.GetAll();
+        }
+
+        public Product GetOne(Guid id)
+        {
+            return _repository.GetAll().SingleOrDefault(x => x.Id == id);
         }
 
         public void Update(Product product)

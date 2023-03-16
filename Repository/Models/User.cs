@@ -11,7 +11,6 @@ namespace Repository.Models
         public User()
         {
             Carts = new HashSet<Cart>();
-            Orders = new HashSet<Order>();
         }
 
         public Guid Id { get; set; }
@@ -29,6 +28,5 @@ namespace Repository.Models
         public string Role { get; set; }
 
         public virtual ICollection<Cart> Carts { get; set; }
-        public virtual ICollection<Order> Orders { get; set; }
     }
 }
