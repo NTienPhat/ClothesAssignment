@@ -28,12 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vanqu/OneDrive/Documents/ClothesAssignment/ClothesWeb/Views/Admin/ManagementOrder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlbWVudE9yZGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/vanqu/OneDrive/Documents/ClothesAssignment/ClothesWeb/Views/Admin/ManagementUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlbWVudFVzZXIuY3NodG1s
+[C:/Users/vanqu/OneDrive/Documents/ClothesAssignment/ClothesWeb/Views/Admin/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vanqu/OneDrive/Documents/ClothesAssignment/ClothesWeb/Views/Category/Create.cshtml]

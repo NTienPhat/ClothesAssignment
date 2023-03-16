@@ -26,7 +26,7 @@ namespace ClothesWeb.Controllers
 
         public IActionResult Index(int? page = 1)
         {
-            if(page != null && page<1)
+            if (page != null && page < 1)
             {
                 page = 1;
             }
@@ -69,6 +69,35 @@ namespace ClothesWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(ProductDTO pro, IFormFile file)
         {
+            if (!ModelState.IsValid)
+            {
+                ICategoryService cate = new CategoryService();
+                IEnumerable<SelectListItem> IdList = cate.GetAll()
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.CategoryName,
+                        Value = x.Id.ToString()
+                    }
+                    );
+                ViewBag.Category = IdList;
+
+                Dictionary<string, string> sizeList = new Dictionary<string, string>()
+            {
+                {"S","small"},
+                {"M","medium"},
+                {"L","large"},
+            };
+
+                IEnumerable<SelectListItem> size = sizeList
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.Key,
+                        Value = x.Value
+                    }
+                    );
+                ViewBag.Size = size;
+                return View();
+            }
             string wwwRootPath = _webHostEnvironment.WebRootPath;
             string fileName = Guid.NewGuid().ToString();
             var uploads = Path.Combine(wwwRootPath, @"images\products");
@@ -118,6 +147,36 @@ namespace ClothesWeb.Controllers
         [HttpPost]
         public IActionResult Edit(ProductDTO pro, IFormFile? file)
         {
+            if (!ModelState.IsValid)
+            {
+                Dictionary<string, string> sizeList = new Dictionary<string, string>()
+            {
+                {"S","small"},
+                {"M","medium"},
+                {"L","large"},
+            };
+
+                IEnumerable<SelectListItem> size = sizeList
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.Key,
+                        Value = x.Value
+                    }
+                    );
+                ViewBag.Size = size;
+
+                ICategoryService cate = new CategoryService();
+                IEnumerable<SelectListItem> IdList = cate.GetAll()
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.CategoryName,
+                        Value = x.Id.ToString()
+                    }
+                    );
+                ViewBag.Category = IdList;
+
+                return View();
+            }
             string wwwRootPath = _webHostEnvironment.WebRootPath;
             if (file != null)
             {

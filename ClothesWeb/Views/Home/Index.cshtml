@@ -1,5 +1,4 @@
-﻿@*@model IEnumerable<Repository.Models.Product>*@
-@using ClothesWeb.Pagination
+﻿@using ClothesWeb.Pagination
 @using X.PagedList
 @using X.PagedList.Mvc.Core
 @using X.PagedList.Web.Common
@@ -7,189 +6,149 @@
 @*@model IPagedList<Repository.Models.Product>
 *@
 @model PaginatedList<Repository.Models.Product>
-@{
-    ViewData["Title"] = "Home";
-}
-<div>
-    <div style="height=50rem;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="~/images/banner/women-in-fashion-banner-sale-discount-free-vector11.png" alt="First slide">
-            </div>
-        
-    </div>
-    <div class="row pb-3">
-        
-        <h4 class="mt-2">Search By Category</h4>
-        <a style="width:10%" class="btn btn-primary m-2" asp-action="Index">All</a>
-        @foreach (var cate in ViewBag.Category)
-        {
-            <a style="width:10%" class="btn btn-primary m-2" asp-action="Index" asp-route-cate="@cate.Id">@cate.CategoryName</a>
-        }
-        @using (Html.BeginForm())
-        {
-            <p>
-                Find by name: @Html.TextBox("SearchString", null, new { Class= "form-control w-25" })
-                <input class="btn btn-primary" type="submit" value="Search" />
-            </p>
-        }
-        @*<a asp-action="Index" asp-route-sort="@ViewData["PriceSort"]">Price</a>
-            <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-            Size
-            </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li>@Html.ActionLink("S", "Index", new { size = ViewBag.S })</li>
-            <li>@Html.ActionLink("M", "Index", new { size = ViewBag.M })</li>
-            <li>@Html.ActionLink("L", "Index", new { size = ViewBag.L })</li>
-            </ul>
-            </div>
-
-            <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-            Price
-            </a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li>@Html.ActionLink("High", "Index", new { PriceSort = ViewBag.HighPrice })</li>
-            <li>@Html.ActionLink("Low", "Index", new { PriceSort = ViewBag.LowPrice })</li>
-            </ul>
-            </div>*@
-
-        <div>
-            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
-            {
-                <div class="form-control">
-                    <div class="row">
-                        <div class="col-4">
-                            <h5>Price</h5>
-                            <ul>
-                                <li>
-                                    <input type="radio" id="contactChoice1" name="high" value="@ViewData["PriceSort"]" />
-                                    <label for="contactChoice1">High</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="contactChoice2" name="low" value="@ViewData["PriceSort"]" />
-                                    <label for="contactChoice1">Low</label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-4">
-                            <h5>Size</h5>
-                            <div>
-                                <ul>
-                                    <li>
-                                        <input type="radio" id="contactChoice1" name="s" value="s" />
-                                        <label for="contactChoice1">S</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="contactChoice2" name="m" value="m" />
-                                        <label for="contactChoice2">M</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="contactChoice3" name="l" value="l" />
-                                        <label for="contactChoice3">L</label>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <h5>Category</h5>
-                            <ul>
-                                @foreach (var cate in ViewBag.Category)
-                                {
-                                    <li>
-                                        <input type="radio" id="contactChoice3" name="@cate.Id" value="@cate.Id" />
-                                        <label for="contactChoice3">@cate.CategoryName</label>
-                                    </li>
-                                }
-                            </ul>
-                        </div>
-                    </div>
-
-                    <input class="btn btn-primary" type="submit" value="Submit" />
-                </div>
-
-            }
+<div style="height=50rem;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="~/images/banner/women-in-fashion-banner-sale-discount-free-vector11.png" alt="First slide">
         </div>
-
-        @*    <a asp-action="Index" asp-route-sort="@ViewData["PriceSort"]">Price</a>
-
-
-
-        *@    @foreach (var product in Model)
-        {
-            <div class="col-lg-3 col-md-6">
-                <div class="row p-2">
-                    <div class="col-12 p-1" style="border:1px solid #008cba; border-radius: 5px;">
-                        <div class="card">
-                            <img src="@product.Image" class="card-img-top rounded" />
-
-                            <div class="card-body">
-                                <div class="pl-1">
-                                    <p class="card-title h5 text-primary">@product.ProductName</p>
-                                    <p class="card-title text-info">Size: <b>@product.Size</b></p>
-                                </div>
-                                <div class="pl-1">
-                                    <p>Price: $@Math.Round(@product.Price,0)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <a asp-action="Details" class="btn btn-primary form-control" asp-route-productId="@product.Id">
-                                Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        }
-        @*<div class="mb-3">
-            @Html.PagedListPager(Model, page => Url.Action("index", new { page = page }), new PagedListRenderOptions()
-            {
-            ActiveLiElementClass = "active",
-            PageClasses = new[]{ "page-link"},
-            LiElementClasses=new[] { "page-item" },
-            UlElementClasses = new[] { "pagination","justify-content-center", "mt-3" },
-            LinkToNextPageFormat = "Next",
-            LinkToPreviousPageFormat = "Previous",
-            MaximumPageNumbersToDisplay = 5,
-            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
-            DisplayLinkToNextPage = PagedListDisplayMode.Always
-            })
-            </div>*@
-        @{
-            var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
-            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
-        }
-        <div class="row mb-5 display-flex justify-content-center">
-            <div class="col-2 text-center btn">
-                <a asp-action="Index"
-                   asp-route-formCollection="@ViewData["PriceSort"]"
-                   asp-route-page="@(Model.PageIndex - 1)"
-                   class="btn btn-default @prevDisabled">
-                    Previous
-                </a>
-            </div>
-            <div class="col-2 text-center btn btn-primary">
-                <a asp-action="Index"
-                   asp-route-formCollection="@ViewData["PriceSort"]"
-                   asp-route-page="@(Model.PageIndex + 1)"
-                   class="btn btn-default @nextDisabled">
-                    Next
-                </a>
-            </div>
-        </div>
-
 
     </div>
 </div>
+
+<div class="row pb-3">
+    <h4 class="mt-2">Search By Category</h4>
+    <a style="width:10%" class="btn btn-primary m-2" asp-action="Index">All</a>
+    @foreach (var cate in ViewBag.Category)
+    {
+        <a style="width:10%" class="btn btn-primary m-2" asp-action="Index" asp-route-cate="@cate.Id">@cate.CategoryName</a>
+    }
+    @using (Html.BeginForm())
+    {
+        <p>
+            Find by name: @Html.TextBox("SearchString", null, new { Class= "form-control w-25" })
+            <input class="btn btn-primary" type="submit" value="Search" />
+        </p>
+    }
+
+
+    <div>
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <div class="form-control">
+                <div class="row">
+                    <div class="col-4">
+                        <h5>Price</h5>
+                        <ul>
+                            <li>
+                                <input type="radio" id="contactChoice1" name="price" value="high" />
+                                <label for="contactChoice1">High</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="contactChoice2" name="price" value="low" />
+                                <label for="contactChoice1">Low</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h5>Size</h5>
+                        <div>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="contactChoice1" name="size" value="small" />
+                                    <label for="contactChoice1">S</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="contactChoice2" name="size" value="medium" />
+                                    <label for="contactChoice2">M</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="contactChoice3" name="size" value="large" />
+                                    <label for="contactChoice3">L</label>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h5>Category</h5>
+                        <ul>
+                            @foreach (var cate in ViewBag.Category)
+                            {
+                                <li>
+                                    <input type="radio" id="contactChoice3" name="category" value="@cate.Id" />
+                                    <label for="contactChoice3">@cate.CategoryName</label>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+
+                <input class="btn btn-primary" type="submit" value="Submit" />
+            </div>
+
+        }
+    </div>
+
+    @*
+
+
+    *@    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-6">
+            <div class="row p-2">
+                <div class="col-12 p-1" style="border:1px solid #008cba; border-radius: 5px;">
+                    <div class="card">
+                        <img src="@product.Image" class="card-img-top rounded" />
+
+                        <div class="card-body">
+                            <div class="pl-1">
+                                <p class="card-title h5 text-primary">@product.ProductName</p>
+                                <p class="card-title text-info">Size: <b>@product.Size</b></p>
+                            </div>
+                            <div class="pl-1">
+                                <p>Price: $@Math.Round(@product.Price,0)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a asp-action="Details" class="btn btn-primary form-control" asp-route-productId="@product.Id">
+                            Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    @{
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+    <div class="row mb-5 display-flex justify-content-center">
+        <div class="col-2 text-center btn">
+            <a asp-action="Index"
+               asp-route-price="@ViewBag.Price"
+               asp-route-size="@ViewBag.Size"
+               asp-route-page="@(Model.PageIndex - 1)"
+               class="btn btn-default @prevDisabled">
+                Previous
+            </a>
+        </div>
+        <div class="col-2 text-center btn btn-primary">
+            <a asp-action="Index"
+               asp-route-price="@ViewBag.Price"
+               asp-route-size="@ViewBag.Size"
+               asp-route-page="@(Model.PageIndex + 1)"
+               class="btn btn-default @nextDisabled">
+                Next
+            </a>
+        </div>
+    </div>
+
+
+</div>
+
 <script>
     $('.dropdown-toggle').dropdown()
 </script>
-
-
-
-

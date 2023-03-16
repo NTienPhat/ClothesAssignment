@@ -10,10 +10,10 @@ namespace ClothesWeb.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IManagementUserService _userService;
+        private readonly IUserService _userService;
         private readonly IMapper _mapper;
 
-        public AccountController(IManagementUserService userService, IMapper mapper)
+        public AccountController(IUserService userService, IMapper mapper)
         {
             _userService = userService;
             _mapper = mapper;
@@ -54,13 +54,15 @@ namespace ClothesWeb.Controllers
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                     new ClaimsPrincipal(identity), properties);
-
+                HttpContext.Session.SetString("username", "LoggedIn");
+                
                 if (authenticateUser.Role == "User")
                 {
                     return RedirectToAction("Index", "Home");
                 }
                 else if (authenticateUser.Role == "Admin")
                 {
+                    HttpContext.Session.SetString("role", "Admin");
                     return RedirectToAction("Index", "Category");
                 }
             }

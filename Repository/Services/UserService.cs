@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Services
 {
-    public interface IManagementUserService
+    public interface IUserService
     {
         public List<User> GetAll();
         public void Create(User user);
@@ -18,11 +18,11 @@ namespace Repository.Services
         public List<User> SearchByKeyword(string keyword);
         public Task<User> Authenticate(string email, string password);
     }
-    public class ManagementUserService : IManagementUserService
+    public class UserService : IUserService
     {
         private readonly RepositoryBase<User> _repository;
 
-        public ManagementUserService()
+        public UserService()
         {
             _repository = new RepositoryBase<User>();
         }
