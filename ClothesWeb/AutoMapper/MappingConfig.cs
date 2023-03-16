@@ -16,8 +16,6 @@ namespace ClothesWeb.AutoMapper
                 config.CreateMap<Order, OrderDTO>().ReverseMap();
                 config.CreateMap<OrderDetail, OrderDetailDTO>().ReverseMap();
                 config.CreateMap<User, UserDTO>().ReverseMap();
-                config.CreateMap<Discount, DiscountDTO>().ReverseMap();
-
 
             });
             return mappingConfig;

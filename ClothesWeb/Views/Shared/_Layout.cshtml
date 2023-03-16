@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Theme.css" />
+    <link rel="stylesheet" href="~/css/pe-icon-7-stroke.css" />
     <link rel="stylesheet" href="~/ClothesWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+
 </head>
 @*<body>
     <header>
@@ -57,10 +60,11 @@
                         </li>
                     </ul>
                     @*<form class="d-flex">
-                        <input class="form-control me-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                        </form>*@
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>*@
                 </div>
+                @await Component.InvokeAsync("NumberCart")
             </div>
         </nav>
     </header>
@@ -78,6 +82,13 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function GoToCart() {
+            let url = '@Url.Action("Index", "Cart")';
+            window.location.href = url;
+        };
+    </script>
+    @await Component.InvokeAsync("Notyf")
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

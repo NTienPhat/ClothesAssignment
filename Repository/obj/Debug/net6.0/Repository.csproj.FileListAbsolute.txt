@@ -12,3 +12,45 @@ E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\n
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.pdb
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\FPT\OutSource\ClothesAssignment\Repository\obj\Debug\net6.0\ref\Repository.dll
+D:\TeraBoxDownload\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.deps.json
+D:\TeraBoxDownload\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+D:\TeraBoxDownload\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.dll
+D:\TeraBoxDownload\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.pdb
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.dll
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\refint\Repository.dll
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.pdb
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+D:\TeraBoxDownload\ClothesAssignment\Repository\obj\Debug\net6.0\ref\Repository.dll
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.deps.json
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.dll
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\bin\Debug\net6.0\Repository.pdb
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.dll
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\refint\Repository.dll
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.pdb
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+D:\learn1\CN7\PRN221\Project\ClothesAssignment\Repository\obj\Debug\net6.0\ref\Repository.dll

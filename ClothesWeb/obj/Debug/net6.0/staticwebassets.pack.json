@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClothesWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ClothesWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\Theme.css",
+      "PackagePath": "staticwebassets\\css\\Theme.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\icons\\cart.png",
+      "PackagePath": "staticwebassets\\icons\\cart.png"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\16f0ea4b-6b1e-468c-a1eb-80ea9a0fd5da.png",
+      "PackagePath": "staticwebassets\\images\\products\\16f0ea4b-6b1e-468c-a1eb-80ea9a0fd5da.png"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\247cbb5f-67c9-4154-8c48-bfd2430708e1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\247cbb5f-67c9-4154-8c48-bfd2430708e1.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\261a4dfd-6ce0-4a8d-abf1-d06bd8f479c7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\261a4dfd-6ce0-4a8d-abf1-d06bd8f479c7.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\36f4dc45-ca9d-463f-9b5b-d2aa232efc17.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\36f4dc45-ca9d-463f-9b5b-d2aa232efc17.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\5769a102-208b-4bc9-ae7c-5f6e95147791.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\5769a102-208b-4bc9-ae7c-5f6e95147791.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\8c0d3a8d-1b38-41f4-ac02-75a2a89cd5e4.png",
+      "PackagePath": "staticwebassets\\images\\products\\8c0d3a8d-1b38-41f4-ac02-75a2a89cd5e4.png"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\9b3553b2-0173-4636-ad2b-6a9da0ee9361.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\9b3553b2-0173-4636-ad2b-6a9da0ee9361.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\b47e9636-77ca-466d-aadb-d9fe52f27ce0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\b47e9636-77ca-466d-aadb-d9fe52f27ce0.webp"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\b96fc872-f045-4f88-bfc0-77d9a646403a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b96fc872-f045-4f88-bfc0-77d9a646403a.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\e54ec652-e7b6-4f02-b6ef-1a82ec426f0a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\e54ec652-e7b6-4f02-b6ef-1a82ec426f0a.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\f2cabe38-df3e-46a8-9f43-83717e8dbb2e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f2cabe38-df3e-46a8-9f43-83717e8dbb2e.jpg"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ClothesWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ClothesWeb.props",
+      "PackagePath": "build\\ClothesWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ClothesWeb.props",
+      "PackagePath": "buildMultiTargeting\\ClothesWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ClothesWeb.props",
+      "PackagePath": "buildTransitive\\ClothesWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

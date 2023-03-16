@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj": {}
+    "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj": {
+    "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\obj\\",
+        "projectPath": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\learn1\\CN7\\PRN221\\Project\\ClothesAssignment\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual components,tolls,SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

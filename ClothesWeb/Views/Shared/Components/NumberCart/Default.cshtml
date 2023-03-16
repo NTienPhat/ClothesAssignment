@@ -1,0 +1,25 @@
+﻿@model List<Repository.Models.Cart>
+@if (Model != null && Model.Count() > 0)
+{
+    <li>
+        <img src="~/icons./cart.png" width="30px" height="30px" onclick="GoToCart();">
+        <span style="color:aliceblue">@Model.Count()</span>
+    </li>
+}
+else
+{
+    <li>
+        <img src="~/icons./cart.png" width="30px" height="30px" onclick="GoToCart();">
+        <span style="color:aliceblue">
+            0
+        </span>
+    </li>
+}
+@section Scripts {
+    <script>
+        function GoToCart() {
+            var url = '@Url.Action("Index", "Cart")';
+            window.location.href = url;
+        };
+    </script>
+}
