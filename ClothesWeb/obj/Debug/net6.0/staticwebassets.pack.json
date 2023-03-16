@@ -9,12 +9,32 @@
       "PackagePath": "staticwebassets\\css\\Theme.css"
     },
     {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\css\\pe-icon-7-stroke.css"
+    },
+    {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\icons\\cart.png",
+      "PackagePath": "staticwebassets\\icons\\cart.png"
     },
     {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\banner\\icon.jpg",
@@ -31,6 +51,14 @@
     {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg",
       "PackagePath": "staticwebassets\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\16f0ea4b-6b1e-468c-a1eb-80ea9a0fd5da.png",
+      "PackagePath": "staticwebassets\\images\\products\\16f0ea4b-6b1e-468c-a1eb-80ea9a0fd5da.png"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\199b7ba7-a5e4-4a95-95ec-f2bdc2934f9f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\199b7ba7-a5e4-4a95-95ec-f2bdc2934f9f.jpg"
     },
     {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg",
@@ -53,6 +81,10 @@
       "PackagePath": "staticwebassets\\images\\products\\5769a102-208b-4bc9-ae7c-5f6e95147791.jpg"
     },
     {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\8c0d3a8d-1b38-41f4-ac02-75a2a89cd5e4.png",
+      "PackagePath": "staticwebassets\\images\\products\\8c0d3a8d-1b38-41f4-ac02-75a2a89cd5e4.png"
+    },
+    {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg",
       "PackagePath": "staticwebassets\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg"
     },
@@ -63,6 +95,14 @@
     {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg",
       "PackagePath": "staticwebassets\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\b47e9636-77ca-466d-aadb-d9fe52f27ce0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\b47e9636-77ca-466d-aadb-d9fe52f27ce0.webp"
+    },
+    {
+      "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\b96fc872-f045-4f88-bfc0-77d9a646403a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b96fc872-f045-4f88-bfc0-77d9a646403a.jpg"
     },
     {
       "Id": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\wwwroot\\images\\products\\dcf37680-7dbb-4f42-8db9-018be41d8d26.JPG",

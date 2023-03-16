@@ -8,17 +8,16 @@ using System.Threading.Tasks;
 
 namespace Repository.Services
 {
-    public interface IOrderDetailService
+    public interface IOrderdetailService
     {
         public List<OrderDetail> GetAll();
-        public void Create(OrderDetail orderDetail);
-        public void Update(OrderDetail orderDetail);
-        public bool Delete(OrderDetail orderDetail);
+        public void Create(OrderDetail oder);
+        public void Update(OrderDetail category);
+        public bool Delete(OrderDetail category);
     }
-    public class OrderDetailService : IOrderDetailService
+    public class OrderDetailService : IOrderdetailService
     {
         private readonly RepositoryBase<OrderDetail> _repository;
-
         public OrderDetailService()
         {
             _repository = new RepositoryBase<OrderDetail>();
@@ -42,7 +41,7 @@ namespace Repository.Services
 
         public void Update(OrderDetail orderDetail)
         {
-            _repository.Update(orderDetail);    
+            _repository.Update(orderDetail);
         }
     }
 }

@@ -22,8 +22,8 @@ builder.Services.AddDbContext<clothesStoreContext>();
 builder.Services.AddSession();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IOrderService, ManagementOrderService>();
-builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderdetailService, OrderDetailService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddSession();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -32,13 +32,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
     });
 builder.Services.AddScoped<ICartService, CartService>();
-builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IOrderdetailService, OrderDetailService>();
-
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
 builder.Services.AddNotyf(config =>
 {
     config.DurationInSeconds = 5;

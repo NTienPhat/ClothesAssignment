@@ -353,3 +353,5 @@ C:\Users\vanqu\OneDrive\Documents\ClothesAssignment\ClothesWeb\bin\Debug\net6.0\
 C:\Users\vanqu\OneDrive\Documents\ClothesAssignment\ClothesWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\vanqu\OneDrive\Documents\ClothesAssignment\ClothesWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\vanqu\OneDrive\Documents\ClothesAssignment\ClothesWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\vanqu\OneDrive\Documents\ClothesAssignment\ClothesWeb\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.Views.dll
+C:\Users\vanqu\OneDrive\Documents\ClothesAssignment\ClothesWeb\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.dll
