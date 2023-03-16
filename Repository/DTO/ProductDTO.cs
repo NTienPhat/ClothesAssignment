@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repository.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,8 @@ namespace Repository.DTO
     {
         public ProductDTO()
         {
-            Carts = new HashSet<CartDTO>();
-            OrderDetails = new HashSet<OrderDetailDTO>();
+            Carts = new HashSet<Cart>();
+            OrderDetails = new HashSet<OrderDetail>();
         }
 
         public Guid Id { get; set; }
@@ -24,8 +25,8 @@ namespace Repository.DTO
         public decimal Price { get; set; }
         public string Image { get; set; }
 
-        public virtual CategoryDTO Category { get; set; }
-        public virtual ICollection<CartDTO> Carts { get; set; }
-        public virtual ICollection<OrderDetailDTO> OrderDetails { get; set; }
+        public virtual Category Category { get; set; }
+        public virtual ICollection<Cart> Carts { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

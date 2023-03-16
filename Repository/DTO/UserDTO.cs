@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repository.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,7 @@ namespace Repository.DTO
     {
         public UserDTO()
         {
-            Carts = new HashSet<CartDTO>();
-            Orders = new HashSet<OrderDTO>();
+            Carts = new HashSet<Cart>();
         }
 
         public Guid Id { get; set; }
@@ -22,7 +22,6 @@ namespace Repository.DTO
         public string PhoneNumber { get; set; }
         public string Role { get; set; }
 
-        public virtual ICollection<CartDTO> Carts { get; set; }
-        public virtual ICollection<OrderDTO> Orders { get; set; }
+        public virtual ICollection<Cart> Carts { get; set; }
     }
 }

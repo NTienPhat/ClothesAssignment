@@ -3,7 +3,7 @@ using ClothesWeb.Models;
 using ClothesWeb.Pagination;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Repository.Models;
+using Repository.Model;
 using Repository.Repository;
 using Repository.Services;
 using System.Diagnostics;

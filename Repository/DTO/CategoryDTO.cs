@@ -1,4 +1,5 @@
 ﻿
+using Repository.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +12,12 @@ namespace Repository.DTO
     {
         public CategoryDTO()
         {
-            Products = new HashSet<ProductDTO>();
+            Products = new HashSet<Product>();
         }
 
         public Guid Id { get; set; }
         public string CategoryName { get; set; }
 
-        public virtual ICollection<ProductDTO> Products { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Repository.Models;
+using Repository.Model;
 using Repository.Repository;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Services
 {
-    public interface IManagementUserService
+    public interface IUserService
     {
         public List<User> GetAll();
         public void Create(User user);
@@ -17,11 +17,11 @@ namespace Repository.Services
         public bool Delete(User user);
         public List<User> SearchByKeyword(string keyword);
     }
-    public class ManagementUserService : IManagementUserService
+    public class UserService : IUserService
     {
         private readonly RepositoryBase<User> _repository;
 
-        public ManagementUserService()
+        public UserService()
         {
             _repository = new RepositoryBase<User>();
         }

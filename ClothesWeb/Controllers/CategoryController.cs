@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Repository.DTO;
-using Repository.Models;
+using Repository.Model;
 using Repository.Repository;
 using Repository.Services;
 using X.PagedList;

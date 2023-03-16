@@ -2,8 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Repository.DTO;
-using Repository.Models;
-using Repository.Repository;
+using Repository.Model;
 using Repository.Services;
 using X.PagedList;
 

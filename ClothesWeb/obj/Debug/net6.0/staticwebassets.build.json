@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MhAmFL8qRhmZhXxilCbKZHEudhPpnaib5s+nTKHB2s4=",
+  "Hash": "hSLDqwpqrPDXPc36AKcn+NxeX7FRYpXtzbbJ2vPQgok=",
   "Source": "ClothesWeb",
   "BasePath": "_content/ClothesWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ClothesWeb\\wwwroot",
       "Source": "ClothesWeb",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ClothesWeb.styles.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ClothesWeb.styles.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "ClothesWeb.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ClothesWeb.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ClothesWeb.styles.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClothesWeb.bundle.scp.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClothesWeb.bundle.scp.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "ClothesWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClothesWeb.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClothesWeb.bundle.scp.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\css\\site.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\css\\Theme.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\css\\Theme.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "css/Theme.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Theme.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\favicon.ico",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/127ff096-2575-4655-990a-46c07ddc7041.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\127ff096-2575-4655-990a-46c07ddc7041.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\1fa6ee37-da65-4c9c-aa84-c5300b309d0d.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\247cbb5f-67c9-4154-8c48-bfd2430708e1.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\247cbb5f-67c9-4154-8c48-bfd2430708e1.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/247cbb5f-67c9-4154-8c48-bfd2430708e1.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\247cbb5f-67c9-4154-8c48-bfd2430708e1.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\261a4dfd-6ce0-4a8d-abf1-d06bd8f479c7.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\261a4dfd-6ce0-4a8d-abf1-d06bd8f479c7.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/261a4dfd-6ce0-4a8d-abf1-d06bd8f479c7.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\261a4dfd-6ce0-4a8d-abf1-d06bd8f479c7.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\36f4dc45-ca9d-463f-9b5b-d2aa232efc17.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\36f4dc45-ca9d-463f-9b5b-d2aa232efc17.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/36f4dc45-ca9d-463f-9b5b-d2aa232efc17.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\36f4dc45-ca9d-463f-9b5b-d2aa232efc17.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\5769a102-208b-4bc9-ae7c-5f6e95147791.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\5769a102-208b-4bc9-ae7c-5f6e95147791.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/5769a102-208b-4bc9-ae7c-5f6e95147791.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5769a102-208b-4bc9-ae7c-5f6e95147791.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\92052ae9-3b0e-4d31-9ac7-969d41c30dba.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\9b3553b2-0173-4636-ad2b-6a9da0ee9361.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\9b3553b2-0173-4636-ad2b-6a9da0ee9361.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/9b3553b2-0173-4636-ad2b-6a9da0ee9361.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\9b3553b2-0173-4636-ad2b-6a9da0ee9361.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/ad3a036e-c149-432d-82fd-8022c85ab003.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ad3a036e-c149-432d-82fd-8022c85ab003.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\e54ec652-e7b6-4f02-b6ef-1a82ec426f0a.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\e54ec652-e7b6-4f02-b6ef-1a82ec426f0a.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/e54ec652-e7b6-4f02-b6ef-1a82ec426f0a.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\e54ec652-e7b6-4f02-b6ef-1a82ec426f0a.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\images\\products\\f2cabe38-df3e-46a8-9f43-83717e8dbb2e.jpg",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\images\\products\\f2cabe38-df3e-46a8-9f43-83717e8dbb2e.jpg",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "images/products/f2cabe38-df3e-46a8-9f43-83717e8dbb2e.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\f2cabe38-df3e-46a8-9f43-83717e8dbb2e.jpg"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\js\\site.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ClothesWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\PRN221\\Grp_Project\\ClothesWeb\\wwwroot\\",
       "BasePath": "_content/ClothesWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -1,4 +1,5 @@
 ﻿
+using Repository.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace Repository.DTO
         public Guid UserId { get; set; }
         public int Quantity { get; set; }
 
-        public virtual ProductDTO Product { get; set; }
-        public virtual UserDTO User { get; set; }
+        public virtual Product Product { get; set; }
+        public virtual User User { get; set; }
     }
 }

@@ -12,3 +12,17 @@ E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\n
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.pdb
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 E:\FPT University\Semester 7\PRN221\Assignment\ClothesWeb\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\Administrator\Documents\PRN221\Grp_Project\Repository\obj\Debug\net6.0\ref\Repository.dll

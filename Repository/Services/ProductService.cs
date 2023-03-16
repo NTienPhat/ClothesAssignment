@@ -1,4 +1,4 @@
-﻿using Repository.Models;
+﻿using Repository.Model;
 using Repository.Repository;
 using System;
 using System.Collections.Generic;

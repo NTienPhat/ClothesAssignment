@@ -1,6 +1,6 @@
 using AutoMapper;
 using ClothesWeb.AutoMapper;
-using Repository.Models;
+using Repository.Model;
 using Repository.Repository;
 using Repository.Services;
 
@@ -11,8 +11,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<clothesStoreContext>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IOrderService, ManagementOrderService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();

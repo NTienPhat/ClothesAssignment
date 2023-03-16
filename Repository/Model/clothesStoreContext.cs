@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace Repository.Models
+namespace Repository.Model
 {
     public partial class clothesStoreContext : DbContext
     {
@@ -19,7 +19,6 @@ namespace Repository.Models
 
         public virtual DbSet<Cart> Carts { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Discount> Discounts { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
@@ -30,13 +29,13 @@ namespace Repository.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=(local);Uid=sa;Pwd=123456;Database=clothesStore");
+                optionsBuilder.UseSqlServer("server =(local); database = clothesStore;uid=sa;pwd=123456;TrustServerCertificate=true;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
+            modelBuilder.HasAnnotation("Relational:Collation", "Vietnamese_CI_AS");
 
             modelBuilder.Entity<Cart>(entity =>
             {
@@ -62,7 +61,7 @@ namespace Repository.Models
                     .WithMany(p => p.Carts)
                     .HasForeignKey(d => d.UserId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__carts__user_id__31EC6D26");
+                    .HasConstraintName("FK__carts__user_id__34C8D9D1");
             });
 
             modelBuilder.Entity<Category>(entity =>
@@ -80,31 +79,6 @@ namespace Repository.Models
                     .HasColumnName("category_name");
             });
 
-            modelBuilder.Entity<Discount>(entity =>
-            {
-                entity.ToTable("discounts");
-
-                entity.Property(e => e.Id)
-                    .HasColumnName("id")
-                    .HasDefaultValueSql("(newid())");
-
-                entity.Property(e => e.DiscountName)
-                    .IsRequired()
-                    .HasMaxLength(255)
-                    .IsUnicode(false)
-                    .HasColumnName("discount_name");
-
-                entity.Property(e => e.DiscountRate)
-                    .HasColumnType("decimal(10, 2)")
-                    .HasColumnName("discount_rate");
-
-                entity.Property(e => e.DiscountStatus)
-                    .IsRequired()
-                    .HasMaxLength(10)
-                    .IsUnicode(false)
-                    .HasColumnName("discount_status");
-            });
-
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.ToTable("orders");
@@ -113,35 +87,15 @@ namespace Repository.Models
                     .HasColumnName("id")
                     .HasDefaultValueSql("(newid())");
 
-                entity.Property(e => e.DiscountId).HasColumnName("discount_id");
-
                 entity.Property(e => e.OrderDate)
-                    .HasColumnType("date")
+                    .HasColumnType("datetime")
                     .HasColumnName("order_date");
 
-                entity.Property(e => e.OrderStatus)
+                entity.Property(e => e.OrderNumber)
                     .IsRequired()
-                    .HasMaxLength(10)
+                    .HasMaxLength(50)
                     .IsUnicode(false)
-                    .HasColumnName("order_status");
-
-                entity.Property(e => e.Total)
-                    .HasColumnType("decimal(10, 2)")
-                    .HasColumnName("total");
-
-                entity.Property(e => e.UserId).HasColumnName("user_id");
-
-                entity.HasOne(d => d.Discount)
-                    .WithMany(p => p.Orders)
-                    .HasForeignKey(d => d.DiscountId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__orders__discount__3B75D760");
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Orders)
-                    .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__orders__user_id__3A81B327");
+                    .HasColumnName("order_number");
             });
 
             modelBuilder.Entity<OrderDetail>(entity =>
@@ -156,13 +110,23 @@ namespace Repository.Models
 
                 entity.Property(e => e.ProductId).HasColumnName("product_id");
 
-                entity.Property(e => e.Quantity).HasColumnName("quantity");
+                entity.Property(e => e.Quantity)
+                    .HasColumnType("decimal(18, 2)")
+                    .HasColumnName("quantity");
+
+                entity.Property(e => e.Total)
+                    .HasColumnType("decimal(18, 2)")
+                    .HasColumnName("total");
+
+                entity.Property(e => e.UnitPrice)
+                    .HasColumnType("decimal(18, 2)")
+                    .HasColumnName("unit_price");
 
                 entity.HasOne(d => d.Order)
                     .WithMany(p => p.OrderDetails)
                     .HasForeignKey(d => d.OrderId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__orderDeta__order__3F466844");
+                    .HasConstraintName("FK__orderDeta__order__35BCFE0A");
 
                 entity.HasOne(d => d.Product)
                     .WithMany(p => p.OrderDetails)
@@ -221,7 +185,7 @@ namespace Repository.Models
                     .WithMany(p => p.Products)
                     .HasForeignKey(d => d.CategoryId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__products__catego__2D27B809");
+                    .HasConstraintName("FK_products_categories");
             });
 
             modelBuilder.Entity<User>(entity =>
