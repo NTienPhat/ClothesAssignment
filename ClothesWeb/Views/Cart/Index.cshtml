@@ -3,8 +3,7 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@using (Html.BeginForm("Checkout", "Cart", FormMethod.Post))
-{
+
 <div class="cart-main-area pb-100">
     <div class="container">
         <div class="section-title mb-50">
@@ -14,78 +13,80 @@
 
             @if (Model != null && Model.Count() > 0)
             {
-                <div class="col-12">
-                    <form action="#">
-                        <div class="table-content table-responsive mb-50">
-                            <table id="tbl">
-                                <thead>
-                                    <tr>
-                                        <th class="product-thumbnail">Image</th>
-                                        <th class="product-name">Product</th>
-                                        <th class="product-price">Price</th>
-                                        <th class="product-quantity">Quantity</th>
-                                        <th class="product-remove">Total Price</th>
-                                        <th class="product-remove">Delete</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @if (Model != null && Model.Count() > 0)
-                                    {
-                                        foreach (var item in Model)
+                @using (Html.BeginForm("Checkout", "Cart", FormMethod.Post))
+                {
+                    <div class="col-12">
+                        <form action="#">
+                            <div class="table-content table-responsive mb-50">
+                                <table id="tbl">
+                                    <thead>
+                                        <tr>
+                                            <th class="product-thumbnail">Image</th>
+                                            <th class="product-name">Product</th>
+                                            <th class="product-price">Price</th>
+                                            <th class="product-quantity">Quantity</th>
+                                            <th class="product-remove">Total Price</th>
+                                            <th class="product-remove">Delete</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (Model != null && Model.Count() > 0)
                                         {
-                                            string url = $"{item.Product.Id}";
-                                            <tr>
-                                                <td class="product-thumbnail">
-                                                    <a href="#">
-                                                        <img src="@item.Product.Image" alt="@item.Product.ProductName" />
-                                                    </a>
-                                                </td>
-                                                <td class="product-name"><a href="@url">@item.Product.ProductName</a></td>
-                                                <td class="product-price"><a href="#">$@item.Product.Price.ToString("#,##0")</a></td>
-                                                <td class="product-price">
-                                                    <input style="font-size:21px;" type="button" value="+" onclick='addQty("@item.ProductId.ToString()");' class="plus">
-                                                    <input style="text-align:right" id="quantity_@item.ProductId" type="number" value="@item.Quantity" class="qty" name="picpac">
-                                                    <input style="font-size:21px;" type="button" value="-" onclick='subtractQty("@item.ProductId.ToString()");' class="">
-                                                </td>
-                                                <td class="product-subtotal">$@item.TotalMoney.ToString("#,##0")</td>
-                                                <td class="Remove" id="productId">
-                                                    <button onclick='Remove("@item.ProductId.ToString()");' class="add-to-cart btn-close"></button>
-                                                </td>
-                                            </tr>
+                                            foreach (var item in Model)
+                                            {
+                                                string url = $"{item.Product.Id}";
+                                                <tr>
+                                                    <td class="product-thumbnail">
+                                                        <a href="#">
+                                                            <img src="@item.Product.Image" alt="@item.Product.ProductName" />
+                                                        </a>
+                                                    </td>
+                                                    <td class="product-name"><a href="@url">@item.Product.ProductName</a></td>
+                                                    <td class="product-price"><a href="#">$@item.Product.Price.ToString("#,##0")</a></td>
+                                                    <td class="product-price">
+                                                        <input style="font-size:21px;" type="button" value="+" onclick='addQty("@item.ProductId.ToString()");' class="plus">
+                                                        <input style="text-align:right" id="quantity_@item.ProductId" type="number" value="@item.Quantity" class="qty" name="picpac">
+                                                        <input style="font-size:21px;" type="button" value="-" onclick='subtractQty("@item.ProductId.ToString()");' class="">
+                                                    </td>
+                                                    <td class="product-subtotal">$@item.TotalMoney.ToString("#,##0")</td>
+                                                    <td class="Remove" id="productId">
+                                                        <button onclick='Remove("@item.ProductId.ToString()");' class="add-to-cart btn-close"></button>
+                                                    </td>
+                                                </tr>
+                                            }
                                         }
-                                    }
 
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-7">
-                                <div class="buttons-cart">
-                                    <input type="submit" onclick="updateCart()" value="Update Cart" />
-                                    <a href="/">Continue Shopping</a>
-                                </div>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="col-lg-4 col-md-5">
-                                <div class="cart_totals">
-                                    <h2>Order</h2>
-                                    <br />
-                                    <table>
-                                        <tbody>
-                                            <tr class="cart-subtotal">
-                                                <th>SubTotal</th>
-                                                <td><span id="totalPrice" class="amount">$@Model.Sum(x =>x.TotalMoney).ToString("#,##0")</span></td>
-                                            </tr>
-                                            <tr class="order-total">
-                                                <th>Total</th>
-                                                <td>
-                                                    <strong><span id="totalPrice" class="amount">$@Model.Sum(x =>x.TotalMoney).ToString("#,##0")</span></strong>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
+                            <div class="row">
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="buttons-cart">
+                                        <input type="submit" onclick="updateCart()" value="Update Cart" />
+                                        <a href="/">Continue Shopping</a>
+                                    </div>
                                 </div>
-                               @* @if (User.Identity.IsAuthenticated)
+                                <div class="col-lg-4 col-md-5">
+                                    <div class="cart_totals">
+                                        <h2>Order</h2>
+                                        <br />
+                                        <table>
+                                            <tbody>
+                                                <tr class="cart-subtotal">
+                                                    <th>SubTotal</th>
+                                                    <td><span id="totalPrice" class="amount">$@Model.Sum(x =>x.TotalMoney).ToString("#,##0")</span></td>
+                                                </tr>
+                                                <tr class="order-total">
+                                                    <th>Total</th>
+                                                    <td>
+                                                        <strong><span id="totalPrice" class="amount">$@Model.Sum(x =>x.TotalMoney).ToString("#,##0")</span></strong>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                    @* @if (User.Identity.IsAuthenticated)
                                 {
 
                                     <div class="wc-proceed-to-checkout">
@@ -97,15 +98,17 @@
                                     <p>You must <a href="/dang-nhap.html">(login)</a> to check out</p>
                                 }*@
 
-                                <div class="wc-proceed-to-checkout">
-                                    @*<a href="/checkout/index.html">Checkout</a>*@
+                                    <div class="wc-proceed-to-checkout">
+                                        @*<a href="/checkout/index.html">Checkout</a>*@
                                         <button type="submit" class="btn btn-primary" style="width:150px">Checkout</button>
-                                </div>
+                                    </div>
 
+                                </div>
                             </div>
-                        </div>
-                    </form>
-                </div>
+                        </form>
+                    </div>
+                }
+
             }
             else
             {
@@ -114,7 +117,7 @@
         </div>
     </div>
 </div>
-}
+
 
 @section Scripts {
     <script>

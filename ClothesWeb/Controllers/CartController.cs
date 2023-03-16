@@ -20,10 +20,12 @@ namespace ClothesWeb.Controllers
         private readonly IMapper _mapper;
         public INotyfService _notifyService { get; }
 
-        public CartController(IWebHostEnvironment webHostEnvironment, ICartService cartService, IProductService proService, IMapper mapper, INotyfService notifyService)
+        public CartController(IWebHostEnvironment webHostEnvironment, ICartService cartService, IOrderService orderService, IOrderdetailService orderdetailService, IProductService proService, IMapper mapper, INotyfService notifyService)
         {
             _webHostEnvironment = webHostEnvironment;
             _cartService = cartService;
+            _orderService = orderService;
+            _orderdetailService = orderdetailService;
             _proService = proService;
             _mapper = mapper;
             _notifyService = notifyService;
@@ -192,8 +194,8 @@ namespace ClothesWeb.Controllers
                 orderDetail.UnitPrice = 0;
                 _orderdetailService.Create(orderDetail);
             }
-            HttpContext.Session = null;
-            return RedirectToAction("Index");
+            HttpContext.Session.Clear();
+            return View("Index");
         }
 
     }
