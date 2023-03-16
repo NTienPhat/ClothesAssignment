@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ClothesWeb</title>
+    <title>@ViewData["Title"] - Street Shop</title>
+    <link rel="icon" style="border-radius: 30%" href="~/images/banner/icon1.jpg" type="image/icon type">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Theme.css" />
@@ -31,11 +32,12 @@
     </div>
     </nav>
     </header>*@
-<body>
+<body style="margin-top: 10rem; background-color: #f1f1f1">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary"
+             style="position: fixed; width: 100%; top: 0;z-index:1;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Clothes Store</a>
+                <a class="navbar-brand" href="/">Street Shop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,27 +53,28 @@
                                 <a class="dropdown-item" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
-
                             </div>
-
                         </li>
                     </ul>
+                    <a class="dropdown-item" asp-controller="Home" asp-action="LogOut">LogOut</a>
                     @*<form class="d-flex">
                         <input class="form-control me-sm-2" type="search" placeholder="Search">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                        </form>*@
+                    </form>*@
                 </div>
             </div>
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" style="margin-top: 4rem;" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top text-muted" style="line-height: 60px; margin-top:2rem;">
+        <div class="container" 
+            style=" display: flex; justify-content: center;"
+        >
             &copy; 2023 - ClothesWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>

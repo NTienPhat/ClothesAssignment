@@ -16,6 +16,7 @@ namespace Repository.Services
         public void Update(User user);
         public bool Delete(User user);
         public List<User> SearchByKeyword(string keyword);
+        public Task<User> Authenticate(string email, string password);
     }
     public class ManagementUserService : IManagementUserService
     {
@@ -60,6 +61,17 @@ namespace Repository.Services
             {
                 throw new Exception(ex.Message);
             }
+        }
+
+        public async Task<User> Authenticate(string email, string password)
+        {
+            User user = await _repository.GetAll().SingleOrDefaultAsync(u => u.Email == email && u.Password == password);
+
+            if (user != null)
+            {
+                return user;
+            }
+            return null;
         }
     }
 }

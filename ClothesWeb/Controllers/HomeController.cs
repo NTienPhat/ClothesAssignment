@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using ClothesWeb.Models;
 using ClothesWeb.Pagination;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Repository.Models;
@@ -149,6 +151,11 @@ namespace ClothesWeb.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

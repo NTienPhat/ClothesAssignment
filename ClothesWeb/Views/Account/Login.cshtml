@@ -1,0 +1,35 @@
+﻿
+@model Repository.Models.User;
+@{
+    Layout = Layout;
+}
+@{ViewData["Title"] = "Login";}
+
+<div class="container" style="background-color: #f1f1f1">
+       
+    <div class="row justify-content-center" style="margin:5rem;">
+        <div class="col-md-6 mt-5">
+            <div class="card">
+                <div class="card-header" style=" display: flex; justify-content: center;">
+                    <h4 class="card-title">Login</h4>
+                </div>
+                <div class="card-body" style="display: flex; flex-direction: column; align-items: center">
+                    <form asp-action="Login" style="margin:2rem; display:flex; align-items:center; flex-direction: column;">
+                        <div class="form-group mb-3">
+                            <label asp-for="Email">Email</label>
+                            <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Password">Password</label>
+                            <input asp-for="Password" type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                    <span style="margin-top:1rem;">Not have account yet? <a asp-controller="Account" asp-action="Register"> Register </a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Link to Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js" integrity="sha384-XXXXX" crossorigin="anonymous"></script>
