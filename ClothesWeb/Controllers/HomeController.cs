@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using ClothesWeb.Models;
 using ClothesWeb.Pagination;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Repository.Models;
@@ -8,6 +10,8 @@ using Repository.Repository;
 using Repository.Services;
 using System.Diagnostics;
 using X.PagedList;
+using System.Drawing;
+using System.IO.Pipelines;
 
 namespace ClothesWeb.Controllers
 {
@@ -81,7 +85,7 @@ namespace ClothesWeb.Controllers
         //    //return View(list.ToPagedList(page ?? 1, pageSize));
         //}
 
-        public async Task<IActionResult> Index(IFormCollection formCollection,string? searchString, string ?cate, int? page = 1)
+        public async Task<IActionResult> Index(IFormCollection formCollection, string? searchString, string? price, string? size, string? cate, int? page = 1)
         {
             var cateList = _cateService.GetAll();
             ViewBag.Category = cateList;
@@ -100,55 +104,79 @@ namespace ClothesWeb.Controllers
             {
                 list = list.Where(p => p.CategoryId.ToString() == cate.ToString());
             }
-            if (!string.IsNullOrEmpty(formCollection["high"])) {
-                list = list.OrderByDescending(s => s.Price);
-            }
-            if (!string.IsNullOrEmpty(formCollection["low"])) {
-                list = from p in list
-                       orderby p.Price ascending
-                       select p;
-            }
-            if (!string.IsNullOrEmpty(formCollection["s"]))
+            if (!string.IsNullOrEmpty(formCollection["price"]))
             {
-                list = from p in list
-                       where p.Size =="small"
-                       select p;
-            }
-            if (!string.IsNullOrEmpty(formCollection["m"]))
-            {
-                list = from p in list
-                       where p.Size == "medium"
-                       select p;
-            }
-            if (!string.IsNullOrEmpty(formCollection["l"]))
-            {
-                list = from p in list
-                       where p.Size == "large"
-                       select p;
-            }
-            foreach(var category in cateList)
-            {
-                if (!string.IsNullOrEmpty(formCollection[$"{category.Id}"]))
+                if (formCollection["price"].ToString().Equals("high"))
+                    list = list.OrderByDescending(s => s.Price);
+                if (formCollection["price"].ToString().Equals("low"))
                 {
                     list = from p in list
-                           where p.CategoryId.ToString() == $"{category.Id}"
+                           orderby p.Price ascending
+                           select p;
+                }
+                ViewBag.Price = formCollection["price"].ToString();
+            }
+            if (price != null)
+            {
+                if (price.Equals("high"))
+                {
+                    list = list.OrderByDescending(s => s.Price);
+                }
+                if (price.Equals("low"))
+                {
+                    list = from p in list
+                           orderby p.Price ascending
                            select p;
                 }
             }
 
+            if (!string.IsNullOrEmpty(formCollection["size"]))
+            {
+                list = from p in list
+                       where p.Size == formCollection["size"].ToString()
+                       select p;
+                ViewBag.Size = formCollection["size"].ToString();
+            }
+
+            if (size != null)
+            {
+                list = from p in list
+                       where p.Size == size.ToString()
+                       select p;
+            }
+
+
+            foreach (var category in cateList)
+            {
+                var cateName = formCollection["category"].ToString();
+                if (!string.IsNullOrEmpty(formCollection["category"]))
+                {
+                    list = from p in list
+                           where p.CategoryId.ToString() == cateName
+                           select p;
+                }
+            }
             return View(await PaginatedList<Product>.CreateAsync(list.AsQueryable<Product>(), page ?? 1, pageSize));
         }
 
 
         public IActionResult Details(string productId)
         {
-            var pro = _service.GetAll().Where(d => d.Id.ToString() == productId).FirstOrDefault(); 
+            var pro = _service.GetAll().Where(d => d.Id.ToString() == productId).FirstOrDefault();
             return View(pro);
         }
 
         public IActionResult Privacy()
         {
             return View();
+        }
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            HttpContext.Session.SetString("username", "Logout");
+            HttpContext.Session.SetString("role", "Logout");
+
+            return RedirectToAction("Index", "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

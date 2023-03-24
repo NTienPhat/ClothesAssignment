@@ -7,12 +7,12 @@
             <br />
         </div>
         <div class="mb-3">
-            <label asp-for="ProductName"></label>
+            <label asp-for="ProductName">Product Name</label>
             <input asp-for="ProductName" class="form-control" />
             <span asp-validation-for="ProductName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="InStock"></label>
+            <label asp-for="InStock">In Stock</label>
             <input asp-for="InStock" class="form-control" />
             <span asp-validation-for="InStock" class="text-danger"></span>
         </div>
@@ -25,11 +25,6 @@
             <input asp-for="Color" class="form-control" />
             <span asp-validation-for="Color" class="text-danger"></span>
         </div>
-        @*<div class="mb-3">
-            <label asp-for="Size"></label>
-            <input asp-for="Size" class="form-control" />
-            <span asp-validation-for="Size" class="text-danger"></span>
-            </div>*@
         <div class="mb-3 col-6">
             <label asp-for="Size"></label>
             <select asp-for="Size" asp-items="ViewBag.Size" class="form-select">
@@ -37,7 +32,7 @@
             </select>
         </div>
         <div class="mb-3 col-6">
-            <label asp-for="CategoryId"></label>
+            <label asp-for="CategoryId">Category</label>
             <select asp-for="CategoryId" asp-items="ViewBag.Category" class="form-select">
                 <option disabled selected>--Select Category--</option>
             </select>
@@ -50,16 +45,9 @@
 
         <label asp-for="Image"></label>
         <input type="file" id="uploadBox" name="file" class="form-control" />
-        <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
-        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px">
-            Back To List
-        </a>
+        <span asp-validation-for="Price" class="text-danger"></span>
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+        </div>
     </div>
-
-
-    @*<button type="submit" class="btn btn-primary" style="width:150px">Create</button>
-        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px">
-        Back To List
-        </a>*@
 </form>
-

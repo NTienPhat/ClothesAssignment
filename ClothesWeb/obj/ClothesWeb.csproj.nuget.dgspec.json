@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj": {}
+    "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\ClothesWeb.csproj": {}
   },
   "projects": {
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj": {
+    "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\ClothesWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj",
+        "projectUniqueName": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\ClothesWeb.csproj",
         "projectName": "ClothesWeb",
-        "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\ClothesWeb.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\ClothesWeb\\obj\\",
+        "projectPath": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\ClothesWeb.csproj",
+        "packagesPath": "C:\\Users\\vanqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\ClothesWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual components,tolls,SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vanqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj": {
-                "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj"
+              "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\Repository\\Repository.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AspNetCoreHero.ToastNotification": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
@@ -55,6 +59,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",
@@ -80,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj": {
+    "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FPT University\\Semester 7\\PRN221\\Assignment\\ClothesWeb\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\vanqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanqu\\OneDrive\\Documents\\ClothesAssignment\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual components,tolls,SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vanqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -132,6 +140,14 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -165,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

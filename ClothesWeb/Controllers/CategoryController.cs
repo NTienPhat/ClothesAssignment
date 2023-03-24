@@ -1,13 +1,16 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repository.DTO;
 using Repository.Models;
 using Repository.Repository;
 using Repository.Services;
+using System.Data;
 using X.PagedList;
 
 namespace ClothesWeb.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _cateService;
@@ -38,6 +41,10 @@ namespace ClothesWeb.Controllers
         [HttpPost]
         public IActionResult Create(CategoryDTO category)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             var cate = _mapper.Map<Category>(category);
             _cateService.Create(cate);
             return RedirectToAction("Index");
@@ -53,6 +60,10 @@ namespace ClothesWeb.Controllers
         [HttpPost]
         public IActionResult Edit(CategoryDTO category)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             var cate = _mapper.Map<Category>(category);
             _cateService.Update(cate);
             return RedirectToAction("Index");

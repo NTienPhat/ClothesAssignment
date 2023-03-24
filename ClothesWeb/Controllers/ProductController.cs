@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Repository.DTO;
@@ -9,6 +10,7 @@ using X.PagedList;
 
 namespace ClothesWeb.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
@@ -24,7 +26,7 @@ namespace ClothesWeb.Controllers
 
         public IActionResult Index(int? page = 1)
         {
-            if(page != null && page<1)
+            if (page != null && page < 1)
             {
                 page = 1;
             }
@@ -67,6 +69,35 @@ namespace ClothesWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(ProductDTO pro, IFormFile file)
         {
+            if (!ModelState.IsValid)
+            {
+                ICategoryService cate = new CategoryService();
+                IEnumerable<SelectListItem> IdList = cate.GetAll()
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.CategoryName,
+                        Value = x.Id.ToString()
+                    }
+                    );
+                ViewBag.Category = IdList;
+
+                Dictionary<string, string> sizeList = new Dictionary<string, string>()
+            {
+                {"S","small"},
+                {"M","medium"},
+                {"L","large"},
+            };
+
+                IEnumerable<SelectListItem> size = sizeList
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.Key,
+                        Value = x.Value
+                    }
+                    );
+                ViewBag.Size = size;
+                return View();
+            }
             string wwwRootPath = _webHostEnvironment.WebRootPath;
             string fileName = Guid.NewGuid().ToString();
             var uploads = Path.Combine(wwwRootPath, @"images\products");
@@ -116,6 +147,36 @@ namespace ClothesWeb.Controllers
         [HttpPost]
         public IActionResult Edit(ProductDTO pro, IFormFile? file)
         {
+            if (!ModelState.IsValid)
+            {
+                Dictionary<string, string> sizeList = new Dictionary<string, string>()
+            {
+                {"S","small"},
+                {"M","medium"},
+                {"L","large"},
+            };
+
+                IEnumerable<SelectListItem> size = sizeList
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.Key,
+                        Value = x.Value
+                    }
+                    );
+                ViewBag.Size = size;
+
+                ICategoryService cate = new CategoryService();
+                IEnumerable<SelectListItem> IdList = cate.GetAll()
+                    .Select(x => new SelectListItem
+                    {
+                        Text = x.CategoryName,
+                        Value = x.Id.ToString()
+                    }
+                    );
+                ViewBag.Category = IdList;
+
+                return View();
+            }
             string wwwRootPath = _webHostEnvironment.WebRootPath;
             if (file != null)
             {

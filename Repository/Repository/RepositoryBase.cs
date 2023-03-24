@@ -28,6 +28,12 @@ namespace Repository.Repository
             _dbSet.Add(entity);
             _context.SaveChanges();
         }
+        public T CreateEntity(T entity)
+        {
+            _dbSet.Add(entity);
+            _context.SaveChanges();
+            return entity;
+        }
         public void Delete(T entity)
         {
             _dbSet.Remove(entity);
@@ -39,6 +45,14 @@ namespace Repository.Repository
             tracker.State = EntityState.Modified;
             //_dbSet.Update(entity);
             _context.SaveChanges();
+        }
+        public T UpdatEntity(T entity)
+        {
+            var tracker = _context.Attach(entity);
+            tracker.State = EntityState.Modified;
+            //_dbSet.Update(entity);
+            _context.SaveChanges();
+            return entity;
         }
     }
 }
